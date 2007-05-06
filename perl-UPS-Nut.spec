@@ -4,7 +4,7 @@
 Summary: A  perl module to talk to a UPS via NUT upsd
 Name:    perl-%module
 Version: 0.04
-Release: 2mdk
+Release: %mkrel 3
 License: GPL or Artistic
 Group:   Monitoring
 Source:  %module-%version.tar.bz2
@@ -19,7 +19,6 @@ Tools package).
 %prep
 %setup -q -n %module-%version
 
-
 %build
 RPM_OPT_FLAGS="$RPM_OPT_FLAGS -Os -s"
 perl Makefile.PL INSTALLDIRS=vendor
@@ -31,7 +30,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(-, root, root)
