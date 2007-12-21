@@ -10,6 +10,7 @@ Group:   Monitoring
 Source:  %module-%version.tar.bz2
 BuildRequires: perl-devel
 BuildArch: noarch
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is an object-oriented interface between Perl and upsd (Network UPS
