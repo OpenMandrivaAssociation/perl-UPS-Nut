@@ -4,7 +4,7 @@
 Summary: A  perl module to talk to a UPS via NUT upsd
 Name:    perl-%module
 Version: 0.04
-Release: %mkrel 6
+Release: 7
 License: GPL or Artistic
 Group:   Monitoring
 Source:  %module-%version.tar.bz2
