@@ -8,6 +8,7 @@ Release: 8
 License: GPL or Artistic
 Group:   Monitoring
 Source:  %module-%version.tar.bz2
+BuildRequires:	make
 BuildRequires: perl-devel
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
